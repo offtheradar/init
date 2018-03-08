@@ -1,2 +1,2 @@
 #!/bin/sh 
-softwareupdate -i -a >> /var/log/update_script.log
+apt-get update && apt-get upgrade >> /var/log/update_script.log

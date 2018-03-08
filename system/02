@@ -1,1 +1,1 @@
-sudo scutil --set ComputerName 42
+hostname debian
