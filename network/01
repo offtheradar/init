@@ -1,1 +1,1 @@
-networksetup -listallhardwareports | grep "Hardware Port" | sed "s/Hardware Port: //"
+networksetup -listallhardwareports | grep "Device: " | sed "s/Device: //" 
